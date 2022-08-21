@@ -1,0 +1,30 @@
+{
+  "name": "game-shop",
+  "version": "1.0.0",
+  "description": "Page to sell games like steam",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "yarn install -W && npx lerna bootstrap",
+    "start:app": "npx lerna run dev --scope=game-shop-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edilberto-Vazquez/game-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edilberto-Vazquez/game-shop/issues"
+  },
+  "homepage": "https://github.com/Edilberto-Vazquez/game-shop#readme",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "lerna": "5.4.1",
+    "nx": "14.5.8"
+  }
+}
