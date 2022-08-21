@@ -1,1 +1,1 @@
-export { SearchBar, Filters } from "./components";
+export { SearchBar, Filters } from "./components"

@@ -1,4 +1,4 @@
-import SearchBar from "./SearchBar";
-import Filters from "./Filters";
+import SearchBar from "./SearchBar"
+import Filters from "./Filters"
 
-export { SearchBar, Filters };
+export { SearchBar, Filters }
