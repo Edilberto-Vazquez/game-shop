@@ -1,5 +1,5 @@
 {
-  "name": "game-shop-app",
+  "name": "game-shop-ui-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@game-shop/resources": "0.0.0",
-    "@game-shop/search": "0.0.0",
+    "@game-shop-ui/resources": "0.0.0",
+    "@game-shop-ui/search": "0.0.0",
     "next": "12.2.5",
     "next-transpile-modules": "9.0.0",
     "react": "18.2.0",

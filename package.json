@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "bootstrap": "yarn install -W && npx lerna bootstrap",
-    "start:dev": "npx lerna run dev --scope=game-shop-app",
+    "start:dev": "npx lerna run dev --scope=game-shop-ui-app",
     "prepare": "husky install"
   },
   "repository": {
