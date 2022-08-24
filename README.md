@@ -17,11 +17,11 @@ Page to sell games like steam
    `git clone https://github.com/Edilberto-Vazquez/game-shop-ui.git`
 
 2. Install dependencies in project path
-   `start thread execution`
+   `yarn run bootstrap`
    This command installs all dependency requirements for all workspaces and packages for the project
 
 3. Run the project with
-   `thread execution start: application`
+   `yarn run start:dev`
 
 ## Step by step [How to add new package]
 
@@ -57,4 +57,4 @@ module.exports = withTM();
 | Name              | Description                                 |
 | ----------------- | ------------------------------------------- |
 | `yarn bootstrap`  | install all dependencies and start symlinks |
-| `yarn start:app ` | run server in development mode              |
+| `yarn start:dev ` | run server in development mode              |

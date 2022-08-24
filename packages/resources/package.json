@@ -1,9 +1,9 @@
 {
-  "name": "@game-shop/resources",
+  "name": "@game-shop-ui/resources",
   "version": "0.0.0",
   "description": "general resources for all packages",
   "author": "Edi <edi_vazquez12@hotmail.com>",
-  "homepage": "https://github.com/Edilberto-Vazquez/game-shop/tree/main/packages/resources#readme",
+  "homepage": "https://github.com/Edilberto-Vazquez/game-shop-ui/tree/main/packages/resources#readme",
   "license": "MIT",
   "main": "src/index.js",
   "directories": {
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Edilberto-Vazquez/game-shop.git"
+    "url": "git+https://github.com/Edilberto-Vazquez/game-shop-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/Edilberto-Vazquez/game-shop/issues"
+    "url": "https://github.com/Edilberto-Vazquez/game-shop-ui/issues"
   },
   "dependencies": {
     "next": "12.2.5",

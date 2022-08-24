@@ -1,9 +1,9 @@
 {
-  "name": "@game-shop/search",
+  "name": "@game-shop-ui/search",
   "version": "0.0.0",
   "description": "search functionalities",
   "author": "Edi <edi_vazquez12@hotmail.com>",
-  "homepage": "https://github.com/Edilberto-Vazquez/game-shop/tree/main/packages/search#readme",
+  "homepage": "https://github.com/Edilberto-Vazquez/game-shop-ui/tree/main/packages/search#readme",
   "license": "MIT",
   "main": "src/index.js",
   "directories": {
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Edilberto-Vazquez/game-shop.git"
+    "url": "git+https://github.com/Edilberto-Vazquez/game-shop-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/Edilberto-Vazquez/game-shop/issues"
+    "url": "https://github.com/Edilberto-Vazquez/game-shop-ui/issues"
   },
   "dependencies": {
     "next": "12.2.5",

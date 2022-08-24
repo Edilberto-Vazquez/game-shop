@@ -1,32 +1,32 @@
 {
-  "name": "game-shop",
+  "name": "game-shop-ui",
   "version": "1.0.0",
   "description": "Page to sell games like steam",
   "private": true,
   "main": "index.js",
   "scripts": {
     "bootstrap": "yarn install -W && npx lerna bootstrap",
-    "start:app": "npx lerna run dev --scope=game-shop-app",
+    "start:dev": "npx lerna run dev --scope=game-shop-app",
     "prepare": "husky install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Edilberto-Vazquez/game-shop.git"
+    "url": "git+https://github.com/Edilberto-Vazquez/game-shop-ui.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Edilberto-Vazquez/game-shop/issues"
+    "url": "https://github.com/Edilberto-Vazquez/game-shop-ui/issues"
   },
-  "homepage": "https://github.com/Edilberto-Vazquez/game-shop#readme",
+  "homepage": "https://github.com/Edilberto-Vazquez/game-shop-ui#readme",
   "workspaces": [
     "packages/*",
     "apps/*"
   ],
   "devDependencies": {
     "eslint": "8.22.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-prettier": "8.5.0",
     "eslint-config-standard": "17.0.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-n": "15.2.4",

@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const withTM = require("next-transpile-modules")([
-  "@game-shop/resources",
-  "@game-shop/search",
-]);
+  "@game-shop-ui/resources",
+  "@game-shop-ui/search",
+])
 // const nextConfig = {
 //   reactStrictMode: true,
 //   swcMinify: true,
@@ -10,4 +10,4 @@ const withTM = require("next-transpile-modules")([
 
 // module.exports = nextConfig;
 
-module.exports = withTM();
+module.exports = withTM()
