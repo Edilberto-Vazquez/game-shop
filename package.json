@@ -41,5 +41,9 @@
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,jsx,css,md}": "prettier --write"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "sass": "^1.54.5"
   }
 }

@@ -1,0 +1,90 @@
+@use "vars";
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background-image: url("../img/login-bcg.jpg");
+  background-size: 110%;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  color: var(--whiteAlmond);
+  font-size: 4rem;
+}
+
+h2 {
+  color: var(--whiteAlmond);
+  font-size: 2rem;
+}
+
+span,
+p {
+  color: var(--whiteAlmond);
+}
+
+button {
+  margin: 10px auto;
+  border: none;
+  width: 80%;
+  padding: 10px;
+  color: var(--whiteAlmond);
+  border-radius: 7px;
+  font-size: 1rem;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.primary-btn {
+  background-color: var(--orangeSoda);
+}
+
+input {
+  border: none;
+  background-color: var(--whiteAlmond);
+  width: 80%;
+  padding: 0.5rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.login-section {
+  background-color: var(--blackFroga);
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 25px;
+  width: 50%;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  backdrop-filter: blur(12px) saturate(172%);
+  -webkit-backdrop-filter: blur(12px) saturate(172%);
+  background-color: rgba(2, 4, 15, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.login-section_information {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.login-section_information div {
+  width: 100%;
+}
+
+.login-section_form * {
+  display: block;
+}

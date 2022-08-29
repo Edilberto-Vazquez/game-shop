@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@game-shop-ui/login-card": "1.0.0",
     "@game-shop-ui/resources": "0.0.0",
     "@game-shop-ui/search": "0.0.0",
     "next": "12.2.5",

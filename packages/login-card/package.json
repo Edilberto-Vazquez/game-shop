@@ -1,0 +1,30 @@
+{
+  "name": "@game-shop-ui/login-card",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Raul Ivan <ra04navi@outlook.com>",
+  "homepage": "https://github.com/Edilberto-Vazquez/game-shop-ui/tree/main/packages/login-card#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edilberto-Vazquez/game-shop-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Edilberto-Vazquez/game-shop-ui/issues"
+  },
+  "dependencies": {
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
