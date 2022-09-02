@@ -1,8 +1,8 @@
 import React from "react"
 import Head from "next/head"
-import { LoginForm, SessionDiv } from "@game-shop-ui/login-card"
+import { RegisterForm, SessionDiv } from "@game-shop-ui/login-card"
 
-export default function login() {
+export default function register() {
   return (
     <>
       <Head>
@@ -14,8 +14,8 @@ export default function login() {
         />
       </Head>
       <h1>Game Shop</h1>
-      <SessionDiv namePage="Login Session">
-        <LoginForm />
+      <SessionDiv namePage="Register">
+        <RegisterForm />
       </SessionDiv>
     </>
   )

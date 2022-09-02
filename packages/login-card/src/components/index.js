@@ -1,4 +1,5 @@
-import LoginDiv from "./LoginDiv"
+import SessionDiv from "./SessionDiv"
 import LoginForm from "./LoginForm"
+import RegisterForm from "./RegisterForm"
 
-export { LoginDiv, LoginForm }
+export { SessionDiv, LoginForm, RegisterForm }
