@@ -1,9 +1,9 @@
 {
-  "name": "@game-shop-ui/login-card",
+  "name": "@game-shop-ui/session",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Raul Ivan <ra04navi@outlook.com>",
-  "homepage": "https://github.com/Edilberto-Vazquez/game-shop-ui/tree/main/packages/login-card#readme",
+  "homepage": "https://github.com/Edilberto-Vazquez/game-shop-ui/tree/main/packages/session#readme",
   "license": "ISC",
   "main": "src/index.js",
   "directories": {
