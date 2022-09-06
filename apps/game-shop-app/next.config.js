@@ -2,7 +2,7 @@
 const withTM = require("next-transpile-modules")([
   "@game-shop-ui/resources",
   "@game-shop-ui/search",
-  "@game-shop-ui/login-card",
+  "@game-shop-ui/session",
 ])
 // const nextConfig = {
 //   reactStrictMode: true,

@@ -1,6 +1,6 @@
 import React from "react"
 import Head from "next/head"
-import { LoginForm, SessionDiv } from "@game-shop-ui/login-card"
+import { LoginForm, SessionDiv } from "@game-shop-ui/session"
 
 export default function login() {
   return (
