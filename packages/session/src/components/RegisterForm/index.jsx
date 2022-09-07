@@ -43,8 +43,6 @@ const RegisterForm = () => {
     return <span>Something happend</span>
   }
 
-  console.log(data)
-
   return (
     <div className="session-section_form">
       <form id="register-form" onSubmit={handleSubmit}>
