@@ -1,6 +1,7 @@
 import React, { useState } from "react"
-import useSignup from "../../api/useSignup"
 import Link from "next/link"
+import useSignup from "../../api/useSignup"
+import { Paper, Form, TextField, Button } from "@game-shop-ui/components"
 
 const RegisterForm = () => {
   const [formData, setFormData] = useState({
@@ -44,80 +45,46 @@ const RegisterForm = () => {
   }
 
   return (
-    <div className="session-section_form">
-      <form id="register-form" onSubmit={handleSubmit}>
-        <label htmlFor="email">
-          <span>Register your email</span>
-          <input
-            required
-            type="email"
-            placeholder="Email"
-            name="email"
-            id="email"
-            onChange={(e) => handleInputChange(e, setEmail)}
-          />
-        </label>
-        <label htmlFor="user-name">
-          <span>Register your user name</span>
-          <input
-            required
-            type="text"
-            placeholder="User name"
-            name="user-name"
-            id="user-name"
-            onChange={(e) => handleInputChange(e, setUserName)}
-          />
-        </label>
-        <label htmlFor="country">
-          <span>Enter your country</span>
-          <input
-            required
-            type="text"
-            placeholder="Country"
-            name="country"
-            id="country"
-            onChange={(e) => handleInputChange(e, setCountryId)}
-          />
-        </label>
-        <label htmlFor="password-user">
-          <span>Enter your password</span>
-          <input
-            required
-            type="password"
-            placeholder="Password"
-            name="password-user"
-            id="password-user"
-            onChange={(e) => handleInputChange(e, setPassword)}
-          />
-        </label>
-        <label htmlFor="password-user-confirm">
-          <span>Confirm your password</span>
-          <input
-            required
-            type="password"
-            placeholder="Password"
-            name="password-user-confirm"
-            id="password-user-confirm"
-            onChange={(e) => handleInputChange(e, setPasswordToCompare)}
-          />
-        </label>
-        <button type="submit" className="primary-btn">
+    <Paper>
+      <Form onSubmit={handleSubmit}>
+        <TextField
+          placeholder="Email"
+          type="email"
+          required
+          onChange={(e) => handleInputChange(e, setEmail)}
+        />
+        <TextField
+          placeholder="User name"
+          type="text"
+          required
+          onChange={(e) => handleInputChange(e, setUserName)}
+        />
+        <TextField
+          placeholder="Country"
+          type="text"
+          required
+          onChange={(e) => handleInputChange(e, setCountryId)}
+        />
+        <TextField
+          placeholder="Password"
+          type="password"
+          required
+          onChange={(e) => handleInputChange(e, setPassword)}
+        />
+        <TextField
+          placeholder="Repeat password"
+          type="password"
+          required
+          onChange={(e) => handleInputChange(e, setPasswordToCompare)}
+        />
+        <Button type="submit" variant="contained" color="secondary">
           Register
-        </button>
-      </form>
-      <span>Do you have an account?</span>
-      <button
-        className="secondary-btn"
-        onClick={(e) => (window.location.href = "/login")}
-      >
-        Login
-      </button>
-      <Link href={"/"}>
-        <a>
-          <span>I forget my password</span>
-        </a>
-      </Link>
-    </div>
+        </Button>
+      </Form>
+      <Button type="button" variant="text" color="primary">
+        Login into your account
+      </Button>
+    </Paper>
   )
 }
 

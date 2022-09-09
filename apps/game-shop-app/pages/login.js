@@ -1,11 +1,9 @@
 import React from "react"
-import Head from "next/head"
-import { LoginForm, SessionDiv } from "@game-shop-ui/session"
 
 export default function login() {
   return (
     <>
-      <Head>
+      {/* <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -16,7 +14,7 @@ export default function login() {
       <h1>Game Shop</h1>
       <SessionDiv namePage="Login Session">
         <LoginForm />
-      </SessionDiv>
+      </SessionDiv> */}
     </>
   )
 }
