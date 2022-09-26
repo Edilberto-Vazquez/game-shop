@@ -2,18 +2,17 @@
   min-width: 200px;
   height: 38px;
   border: none;
-  border-radius: 12px;
+  border-radius: 8px;
   font-size: 1.6rem;
-  // &[button-variant="text"] {
-  //   &[button-color="text"]{
-  //     background-color: transparent;
-  //     color: ;
-  //   }
-  // }
-  // &[button-color="secondary"] {
-  //   background-color: $secondary-main;
-  // }
-  // &[button-color="none"] {
-  //   background-color: transparent;
-  // }
+}
+
+.button--contained {
+  background-color: var(--color-secondary);
+  color: var(--text-color-primary);
+}
+
+.button--outlined {
+  border: 2px solid var(--color-secondary);
+  background-color: var(--color-primary);
+  color: var(--text-color-primary);
 }

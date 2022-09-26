@@ -26,13 +26,15 @@ body {
 
 h1 {
   font-size: 3.2rem;
+  color: var(--text-color-primary);
 }
 
 h2 {
   font-size: 2.4;
+  color: var(--text-color-primary);
 }
 
-a {
-  font-size: 1.8rem;
-  color: $primary-dark;
+p {
+  font-size: 1.4rem;
+  color: var(--text-color-primary);
 }
