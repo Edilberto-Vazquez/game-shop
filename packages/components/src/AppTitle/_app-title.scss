@@ -1,0 +1,16 @@
+.page-title {
+  min-width: 280px;
+  max-width: 400px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  &__icon {
+    width: 64px;
+    height: 64px;
+    background-image: url("./icons/app-icon.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

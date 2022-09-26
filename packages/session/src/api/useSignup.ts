@@ -1,20 +1,26 @@
 import { useState, useEffect } from "react"
 
-const useSignup = (variables) => {
-  const [submit, setSubmit] = useState(false)
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState(null)
-  const [data, setData] = useState(null)
+type UseSignupResponse = {
+  loading: boolean
+  error: boolean
+  data: any
+  setSubmit: React.Dispatch<React.SetStateAction<boolean>>
+}
+
+const useSignup = (variables: any): UseSignupResponse => {
+  const [submit, setSubmit] = useState<boolean>(false)
+  const [loading, setLoading] = useState<boolean>(false)
+  const [error, setError] = useState<boolean>(false)
+  const [data, setData] = useState<any>(null)
   const handleRequest = async () => {
     setLoading(true)
     try {
       const response = await fetch(
-        "http://localhost:5000/api/v1/session/signup",
+        "http://localhost:8000/api/v1/session/signup",
         {
           method: "POST",
-          mode: "cors",
-          cache: "default",
-          headers: {},
+          mode: "no-cors",
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify(variables),
         }
       )
@@ -22,7 +28,7 @@ const useSignup = (variables) => {
       setData(parseData)
     } catch (error) {
       console.log(error)
-      setError(error)
+      setError(false)
     } finally {
       setSubmit(false)
       setLoading(false)

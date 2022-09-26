@@ -1,9 +1,11 @@
 import React, { useId } from "react"
+import "./_form.scss"
 
-type FormProps = {
-  onSubmit: React.FormEventHandler<HTMLFormElement>
-  children: React.ReactNode
-}
+interface FormProps
+  extends React.DetailedHTMLProps<
+    React.FormHTMLAttributes<HTMLFormElement>,
+    HTMLFormElement
+  > {}
 
 const Form = ({ onSubmit, children }: FormProps): JSX.Element => {
   const formId: string = useId()

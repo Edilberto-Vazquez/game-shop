@@ -1,4 +1,4 @@
-import "../styles/globals.css"
+import "../styles/_index.scss"
 
 function MyApp({ Component, pageProps }): JSX.Element {
   return <Component {...pageProps} />

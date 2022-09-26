@@ -1,0 +1,46 @@
+.register-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+  &__title {
+    width: 100%;
+    font-size: 38px;
+    color: var(--text-color-primary);
+    text-align: center;
+  }
+  .register-form-socmed {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    row-gap: 8px;
+    .register-form-socmed-icons {
+      width: 84px;
+      display: flex;
+      justify-content: space-around;
+      column-gap: 9px;
+      &__item {
+        width: 38px;
+        height: 38px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+    .register-form-socmed-icons .register-form-socmed-icons__item:nth-child(1) {
+      background-image: url("../assets/icons/social-media/facebook-icon.svg");
+    }
+    .register-form-socmed-icons .register-form-socmed-icons__item:nth-child(2) {
+      background-image: url("../assets/icons/social-media/google-icon.svg");
+    }
+  }
+  .register-form-login {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    row-gap: 8px;
+  }
+}

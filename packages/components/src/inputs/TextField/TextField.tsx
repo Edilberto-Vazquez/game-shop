@@ -1,19 +1,16 @@
 import React, { useId } from "react"
+import "./_text-field.scss"
 
-type TextFieldProps = {
-  title: string | null | undefined
-  placeholder: string
-  type: string
-  required: boolean
-  onChange: React.ChangeEventHandler<HTMLInputElement>
-} & typeof defaultProps
-
-const defaultProps = {
-  title: undefined,
+interface TextFieldProps
+  extends React.DetailedHTMLProps<
+    React.InputHTMLAttributes<HTMLInputElement>,
+    HTMLInputElement
+  > {
+  title?: string | null | undefined
 }
 
 const TextField = ({
-  title,
+  title = "",
   placeholder,
   type,
   required,
@@ -35,7 +32,5 @@ const TextField = ({
     </label>
   )
 }
-
-TextField.defaultProps = defaultProps
 
 export default TextField
